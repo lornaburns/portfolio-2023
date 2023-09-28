@@ -1,0 +1,130 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+nav {
+  background-color: #126180;
+  color: lightgrey;
+  text-align: right;
+  height: 75px;
+}
+body {
+  background-color: grey;
+  color: lightgray;
+}
+a {
+  text-decoration: none;
+  color: lightgrey;
+  font-size: 1.5rem;
+}
+ul {
+  vertical-align: center;
+  display: inline-flex;
+}
+li {
+  color: lightgrey;
+  text-decoration: none;
+  list-style: none;
+  display: inline;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+img {
+  border-radius: 50%;
+  margin: 40px 10px 10px 10px;
+}
+.about-me {
+  display: flex;
+}
+
+.picture {
+  margin: auto;
+  display: inline-block;
+}
+
+.bio {
+  display: inline-block;
+  margin: auto auto auto 25px;
+  text-align: center;
+}
+.about-me h1 {
+  font-size: 2.5rem;
+}
+.about-me h2 {
+  font-size: 1.5rem;
+}
+.portfolio {
+  display: inline;
+  width: 100%;
+}
+.card {
+  font-size: 1.5rem;
+  border: 10px solid transparent;
+}
+.cards2-5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#card-1 {
+  margin: 25px 5px 5px 5px;
+  height: 150px;
+  text-decoration: none;
+  background-image: url(https://img.freepik.com/free-photo/wood-material-background-wallpaper-texture-concept_53876-42925.jpg?size=626&ext=jpg);
+}
+#card-2 {
+  width: 48%;
+  margin: 5px;
+  height: 150px;
+  flex-direction: row;
+  background-image: url(https://img.freepik.com/free-photo/space-background-realistic-starry-night-cosmos-shining-stars-milky-way-stardust-color-galaxy_1258-154643.jpg?size=626&ext=jpg);
+}
+#card-3 {
+  width: 48%;
+  margin: 5px;
+  height: 150px;
+  display: inline-flex;
+  flex-direction: row;
+  background-image: url(https://img.freepik.com/free-vector/background-line-wave-design-minimalist_483537-3639.jpg?size=626&ext=jpg);
+}
+#card-4 {
+  width: 48%;
+  margin: 5px;
+  height: 150px;
+  display: inline-flex;
+  flex-direction: row;
+  background-image: url(https://img.freepik.com/free-photo/dramatic-white-clouds-blue-sky-from-airplane-window-view-colorful-sunset-cloudscape-background_90220-1208.jpg?size=626&ext=jpg);
+}
+#card-5 {
+  width: 48%;
+  margin: 5px;
+  height: 150px;
+  display: inline-flex;
+  flex-direction: row;
+  background-image: url(https://img.freepik.com/free-photo/beautiful-milky-way-night-sky_53876-139825.jpg?size=626&ext=jpg);
+}
+.card:hover {
+  border: 10px solid white;
+  transition-duration: 1.5s;
+}
+
+.contact-me {
+  margin: 25px auto 25px 5px;
+  text-align: center;
+}
+form {
+  font-size: 2.5rem;
+}
+#message {
+  width: 250px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #126180;
+  color: lightgrey;
+  height: 30px;
+  margin-bottom: 10px;
+}
