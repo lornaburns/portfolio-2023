@@ -21,14 +21,14 @@ a {
 ul {
   vertical-align: center;
   display: inline-flex;
+  padding: 0;
 }
 li {
   color: lightgrey;
   text-decoration: none;
   list-style: none;
   display: inline;
-  padding: 5px;
-  margin-right: 10px;
+  padding: 10px;
 }
 
 img {
@@ -37,17 +37,23 @@ img {
 }
 .about-me {
   display: flex;
+  flex: 1;
+  margin: auto;
 }
 
 .picture {
-  margin: auto;
   display: inline-block;
+  flex: 1;
+  padding: 0;
+  text-align: center;
 }
 
 .bio {
   display: inline-block;
-  margin: auto auto auto 25px;
+  margin: auto 25px auto auto;
   text-align: center;
+  flex: 1;
+  padding: 0;
 }
 .about-me h1 {
   font-size: 2.5rem;
@@ -75,34 +81,32 @@ img {
   background-image: url(https://img.freepik.com/free-photo/wood-material-background-wallpaper-texture-concept_53876-42925.jpg?size=626&ext=jpg);
 }
 #card-2 {
-  width: 48%;
+  flex: 1;
   margin: 5px;
   height: 150px;
-  flex-direction: row;
+  background-size: cover;
+
   background-image: url(https://img.freepik.com/free-photo/space-background-realistic-starry-night-cosmos-shining-stars-milky-way-stardust-color-galaxy_1258-154643.jpg?size=626&ext=jpg);
 }
 #card-3 {
-  width: 48%;
+  flex: 1;
   margin: 5px;
   height: 150px;
-  display: inline-flex;
-  flex-direction: row;
+  background-size: cover;
   background-image: url(https://img.freepik.com/free-vector/background-line-wave-design-minimalist_483537-3639.jpg?size=626&ext=jpg);
 }
 #card-4 {
-  width: 48%;
+  flex: 1;
   margin: 5px;
   height: 150px;
-  display: inline-flex;
-  flex-direction: row;
+  background-size: cover;
   background-image: url(https://img.freepik.com/free-photo/dramatic-white-clouds-blue-sky-from-airplane-window-view-colorful-sunset-cloudscape-background_90220-1208.jpg?size=626&ext=jpg);
 }
 #card-5 {
-  width: 48%;
+  flex: 1;
   margin: 5px;
   height: 150px;
-  display: inline-flex;
-  flex-direction: row;
+  background-size: cover;
   background-image: url(https://img.freepik.com/free-photo/beautiful-milky-way-night-sky_53876-139825.jpg?size=626&ext=jpg);
 }
 .card:hover {
@@ -117,8 +121,11 @@ img {
 form {
   font-size: 2.5rem;
 }
+
 #message {
-  width: 250px;
+  flex: 1;
+  width: auto;
+  margin: 0;
 }
 
 .footer {
@@ -127,4 +134,42 @@ form {
   color: lightgrey;
   height: 30px;
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  #card-2,
+  #card-3,
+  #card-4,
+  #card-5,
+  .bio,
+  .picture {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .about-me {
+    flex-direction: column;
+    text-align: center;
+  }
+  nav {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #card-2,
+  #card-3,
+  #card-4,
+  #card-5,
+  .bio,
+  .picture {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .about-me {
+    flex-direction: column;
+    text-align: center;
+  }
+  nav {
+    text-align: center;
+  }
 }
