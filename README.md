@@ -15,7 +15,7 @@ Upload index.html and assets folder to web browser. Assets folder contains style
 ## Links:
 
 - [Webpage]()
-- [Repository]()
+- [Repository](https://github.com/lornaburns/portfolio-2023)
 
 ## Use:
 
@@ -24,7 +24,7 @@ currently featured; the other projects are placeholder images with no links.
 
 ## Image:
 
-<img src="" alt="personal portfolio webpage" width="200"/>
+<img src="https://github.com/lornaburns/portfolio-2023/blob/main/assets/images/_C__Users_Lorna%2520and%2520Wright_bootcamp_sandbox_week-2_02-Challenge_portfolio-2023_index.html_.png?raw=true" alt="personal portfolio webpage" width="200"/>
 
 ## Credits:
 
